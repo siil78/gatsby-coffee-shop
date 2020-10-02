@@ -13,11 +13,13 @@ import "./bootstrap.min.css"
 import "./layout.css"
 //icons
 import { FaGulp } from 'react-icons/fa'
+//components
+import Navbar from './Globals/Navbar'
 
 const Layout = ({ children }) => {
   return(
     <>
-      <FaGulp />
+      <Navbar />
       {children}
     </>
   )
