@@ -15,12 +15,14 @@ import "./layout.css"
 import { FaGulp } from 'react-icons/fa'
 //components
 import Navbar from './Globals/Navbar'
+import Footer from './Globals/Footer'
 
 const Layout = ({ children }) => {
   return(
     <>
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }
